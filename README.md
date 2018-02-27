@@ -14,3 +14,17 @@ python3.4，不然多少坑也跳不完。
 4 settings 里面ALLOWED_HOSTS = ['*']
 
 5 One more thing，Python的各种模块，直接打包复制了。或者整个虚拟环境带过来（这个没有试）
+
+6 sql server的步骤
+
+    （1）导出脚本。
+  
+    （2）导入数据，但是会遇到个坑，需要用安装工具安装一个ssis的东西，就是Integration Services
+    
+     (3) 执行一下
+     
+    （4）数据库总安全性，添加登陆角色。设置为 bd_owner 
+    
+     （5）beauty安全性，设置bd_owner
+     
+     (6) 检查是否是混合验证模式。
