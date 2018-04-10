@@ -1,4 +1,4 @@
-# iis8-django2.0
+# window+iis8+sqserver2017+django2.0填坑。
 各种坑
 
 python3.4，不然多少坑也跳不完。
